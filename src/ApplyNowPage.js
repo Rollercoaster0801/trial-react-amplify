@@ -2,7 +2,7 @@ import { Link, NavLink } from 'react-router-dom';
 // import { PageServices, PERSONALLETTER } from './ui-components';
 // import SERVICESLETTER from './ui-components/SERVICESLETTER';
 // import { Auth } from 'aws-amplify';
-import { LoanInformation, NEXT, PageOne } from './ui-components';
+import { ApplyPersonal, LoanInformation, NEXT, SERVICESLETTER } from './ui-components';
 import {APPLY, PageServices, APPLYTEXT, LoanInformationInstructions,} from './ui-components'
 import React from 'react';
 
@@ -12,11 +12,18 @@ const ApplyNowPage = () => {
     return (
       <div>
       <PageServices/>
-      <APPLYTEXT
-        position="absolute"
-        left= "158px"
-        top="55px" 
+      <ApplyPersonal
+      position="absolute"
+      left= "259px"
+      top="31px" 
       />
+      <NavLink to = "/">
+      <SERVICESLETTER
+        position="absolute"
+        left= "909px"
+        top="86px" 
+      />
+      </NavLink>
       <LoanInformationInstructions 
         position="absolute"
         left= "18px"

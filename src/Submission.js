@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom';
-import { LoanInformation, NEXT, PageOne, SubmissionPage } from './ui-components';
+import { ApplyPersonal, LoanInformation, NEXT, PageOne, SubmissionPage, SubmissionPageText, SERVICESLETTER } from './ui-components';
 import {APPLY, PageServices, APPLYTEXT, SubmissionInstructions, BACK} from './ui-components'
 import React from 'react';
 
@@ -7,17 +7,28 @@ const Submission = () => {
     return (
       <div>
         <PageServices/>
-        <APPLYTEXT
-            position="absolute"
-            left= "158px"
-            top="55px" 
+        <ApplyPersonal
+          position="absolute"
+          left= "259px"
+          top="31px" 
         />
+        <NavLink to = "/">
+        <SERVICESLETTER
+          position="absolute"
+          left= "909px"
+          top="86px" 
+        />
+        </NavLink>
         <SubmissionInstructions 
             position="absolute"
             left= "18px"
             top="378px"
         />
-        
+        <SubmissionPageText
+            position="absolute"
+            left= "406px"
+            top="317px"
+        />
         <NavLink to ="/borrowerinfo">
         <BACK 
             position="absolute"

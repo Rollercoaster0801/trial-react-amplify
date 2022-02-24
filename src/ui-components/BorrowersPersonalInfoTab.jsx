@@ -7,21 +7,33 @@
 /* eslint-disable */
 import React from "react";
 import { getOverrideProps } from "@aws-amplify/ui-react/internal";
-import { Icon, View } from "@aws-amplify/ui-react";
-export default function PageServices(props) {
+import { Icon, Text, View } from "@aws-amplify/ui-react";
+import BorrowerInformationInstructions from "./BorrowerInformationInstructions";
+import BorrowersPersonalInfo from "./BorrowersPersonalInfo";
+export default function BorrowersPersonalInfoTab(props) {
   const { overrides: overridesProp, ...rest } = props;
   const overrides = { ...overridesProp };
   return (
     <View
       width="1440px"
-      height="1024px"
+      height="1672px"
       overflow="hidden"
       position="relative"
       padding="0px 0px 0px 0px"
-      backgroundColor="rgba(255,250.5138847231865,244.3749949336052,1)"
+      backgroundColor="rgba(255,255,255,1)"
       {...rest}
       {...getOverrideProps(overrides, "View")}
     >
+      <View
+        width="1440px"
+        height="1741px"
+        position="absolute"
+        top="-6px"
+        left="0px"
+        padding="0px 0px 0px 0px"
+        backgroundColor="rgba(255,251.00000023841858,244.0000006556511,1)"
+        {...getOverrideProps(overrides, "View.View[0]")}
+      ></View>
       <Icon
         width="339px"
         height="339px"
@@ -45,17 +57,6 @@ export default function PageServices(props) {
         {...getOverrideProps(overrides, "View.Icon[1]")}
       ></Icon>
       <Icon
-        width="182px"
-        height="182px"
-        pathData="M182 91C182 141.258 141.258 182 91 182C40.7421 182 0 141.258 0 91C0 40.7421 40.7421 0 91 0C141.258 0 182 40.7421 182 91Z"
-        viewBox={{ minX: 0, minY: 0, width: 182, height: 182 }}
-        color="rgba(255,236.00000113248825,210.00000268220901,1)"
-        position="absolute"
-        top="649px"
-        left="-57px"
-        {...getOverrideProps(overrides, "View.Icon[2]")}
-      ></Icon>
-      <Icon
         width="104px"
         height="104px"
         pathData="M104 52C104 80.7188 80.7188 104 52 104C23.2812 104 0 80.7188 0 52C0 23.2812 23.2812 0 52 0C80.7188 0 104 23.2812 104 52Z"
@@ -64,29 +65,7 @@ export default function PageServices(props) {
         position="absolute"
         top="169px"
         left="1220px"
-        {...getOverrideProps(overrides, "View.Icon[3]")}
-      ></Icon>
-      <Icon
-        width="104px"
-        height="104px"
-        pathData="M104 52C104 80.7188 80.7188 104 52 104C23.2812 104 0 80.7188 0 52C0 23.2812 23.2812 0 52 0C80.7188 0 104 23.2812 104 52Z"
-        viewBox={{ minX: 0, minY: 0, width: 104, height: 104 }}
-        color="rgba(255,236.00000113248825,210.00000268220901,1)"
-        position="absolute"
-        top="799px"
-        left="118px"
-        {...getOverrideProps(overrides, "View.Icon[4]")}
-      ></Icon>
-      <Icon
-        width="339px"
-        height="339px"
-        pathData="M339 169.5C339 263.112 263.112 339 169.5 339C75.8877 339 0 263.112 0 169.5C0 75.8877 75.8877 0 169.5 0C263.112 0 339 75.8877 339 169.5Z"
-        viewBox={{ minX: 0, minY: 0, width: 339, height: 339 }}
-        color="rgba(255,236.00000113248825,210.00000268220901,1)"
-        position="absolute"
-        top="854px"
-        left="-157px"
-        {...getOverrideProps(overrides, "View.Icon[5]")}
+        {...getOverrideProps(overrides, "View.Icon[2]")}
       ></Icon>
       <View
         width="121px"
@@ -96,7 +75,7 @@ export default function PageServices(props) {
         left="100px"
         overflow="hidden"
         padding="0px 0px 0px 0px"
-        {...getOverrideProps(overrides, "View.View[0]")}
+        {...getOverrideProps(overrides, "View.View[1]")}
       >
         <Icon
           width="13.175010681152344px"
@@ -106,13 +85,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 13.1748046875,
-            height: 7.034454345703125,
+            height: 7.034423828125,
           }}
           color="rgba(255,184.00000423192978,184.00000423192978,1)"
           position="absolute"
           top="80.28499603271484px"
           left="95.20641326904297px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[0]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[0]")}
         ></Icon>
         <Icon
           width="34.41178894042969px"
@@ -128,7 +107,7 @@ export default function PageServices(props) {
           position="absolute"
           top="35.4664306640625px"
           left="63.96196746826172px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[1]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[1]")}
         ></Icon>
         <Icon
           width="6.9416351318359375px"
@@ -138,13 +117,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 6.94140625,
-            height: 30.80670166015625,
+            height: 30.806640625,
           }}
           color="rgba(0,0,0,1)"
           position="absolute"
           top="44.9172477722168px"
           left="65.94550323486328px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[2]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[2]")}
         ></Icon>
         <Icon
           width="40.08964920043945px"
@@ -154,13 +133,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 40.08984375,
-            height: 29.157135009765625,
+            height: 29.1572265625,
           }}
           color="rgba(63.000000044703484,61.00000016391277,86.00000247359276,1)"
           position="absolute"
           top="83.76583862304688px"
           left="40.50345230102539px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[3]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[3]")}
         ></Icon>
         <Icon
           width="89.62419128417969px"
@@ -170,13 +149,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 89.6240234375,
-            height: 0.308074951171875,
+            height: 0.30810546875,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
           top="112.69193267822266px"
           left="15.657238006591797px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[4]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[4]")}
         ></Icon>
         <Icon
           width="19.297199249267578px"
@@ -186,13 +165,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 19.29736328125,
-            height: 19.269073486328125,
+            height: 19.26904296875,
           }}
           color="rgba(255,184.00000423192978,184.00000423192978,1)"
           position="absolute"
           top="6.562844753265381px"
           left="46.696048736572266px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[5]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[5]")}
         ></Icon>
         <Icon
           width="14.472896575927734px"
@@ -202,13 +181,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 14.47265625,
-            height: 24.0863037109375,
+            height: 24.08642578125,
           }}
           color="rgba(255,184.00000423192978,184.00000423192978,1)"
           position="absolute"
           top="20.254016876220703px"
           left="48.219512939453125px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[6]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[6]")}
         ></Icon>
         <Icon
           width="44.179630279541016px"
@@ -224,7 +203,7 @@ export default function PageServices(props) {
           position="absolute"
           top="26.894765853881836px"
           left="32.98508834838867px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[7]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[7]")}
         ></Icon>
         <Icon
           width="10.145946502685547px"
@@ -234,13 +213,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 10.14599609375,
-            height: 11.343276977539062,
+            height: 11.34326171875,
           }}
           color="rgba(255,184.00000423192978,184.00000423192978,1)"
           position="absolute"
           top="97.07670593261719px"
           left="37.30136489868164px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[8]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[8]")}
         ></Icon>
         <Icon
           width="19.297204971313477px"
@@ -250,13 +229,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 19.29736328125,
-            height: 67.18817138671875,
+            height: 67.188232421875,
           }}
           color="rgba(87.00000241398811,90.00000223517418,137.00000703334808,1)"
           position="absolute"
           top="33.4381103515625px"
           left="25.3675594329834px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[9]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[9]")}
         ></Icon>
         <Icon
           width="1.851104736328125px"
@@ -272,7 +251,7 @@ export default function PageServices(props) {
           position="absolute"
           top="39.834083557128906px"
           left="56.535736083984375px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[10]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[10]")}
         ></Icon>
         <Icon
           width="1.851104736328125px"
@@ -282,13 +261,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 1.85107421875,
-            height: 1.848419189453125,
+            height: 1.848388671875,
           }}
           color="rgba(63.000000044703484,61.00000016391277,86.00000247359276,1)"
           position="absolute"
           top="45.84138870239258px"
           left="56.535736083984375px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[11]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[11]")}
         ></Icon>
         <Icon
           width="1.851104736328125px"
@@ -298,13 +277,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 1.85107421875,
-            height: 1.848419189453125,
+            height: 1.848388671875,
           }}
           color="rgba(63.000000044703484,61.00000016391277,86.00000247359276,1)"
           position="absolute"
           top="85.4280014038086px"
           left="61.78052520751953px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[12]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[12]")}
         ></Icon>
         <Icon
           width="23.820255279541016px"
@@ -314,13 +293,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 23.8203125,
-            height: 18.167266845703125,
+            height: 18.167236328125,
           }}
           color="rgba(63.000000044703484,61.00000016391277,86.00000247359276,1)"
           position="absolute"
           top="1.6170510264146287e-7px"
           left="45.6732063293457px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[13]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[13]")}
         ></Icon>
         <Icon
           width="30.851699829101562px"
@@ -330,13 +309,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 30.8515625,
-            height: 30.80670166015625,
+            height: 30.806640625,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
           top="43.675445556640625px"
           left="90.14830017089844px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[14]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[14]")}
         ></Icon>
         <Icon
           width="26.532470703125px"
@@ -346,13 +325,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 26.53271484375,
-            height: 26.4937744140625,
+            height: 26.49365234375,
           }}
           color="rgba(0,0,0,1)"
           position="absolute"
           top="45.83191680908203px"
           left="92.30792236328125px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[15]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[15]")}
         ></Icon>
         <Icon
           width="6.2938690185546875px"
@@ -362,13 +341,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 6.2939453125,
-            height: 15.672576904296875,
+            height: 15.672607421875,
           }}
           color="rgba(111.5625,34.83593791723251,4.648442566394806,1)"
           position="absolute"
           top="51.22308349609375px"
           left="102.36372375488281px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[16]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[16]")}
         ></Icon>
         <Icon
           width="6.169567108154297px"
@@ -378,13 +357,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 6.16943359375,
-            height: 20.02435302734375,
+            height: 20.0244140625,
           }}
           color="rgba(0,0,0,1)"
           position="absolute"
           top="76.98641204833984px"
           left="38.56539535522461px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[17]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[17]")}
         ></Icon>
         <Icon
           width="5.2036638259887695px"
@@ -394,13 +373,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 5.20361328125,
-            height: 6.906829833984375,
+            height: 6.90673828125,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
           top="33.26560974121094px"
           left="2.550386905670166px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[18]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[18]")}
         ></Icon>
         <Icon
           width="5.2036638259887695px"
@@ -410,13 +389,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 5.20361328125,
-            height: 13.016876220703125,
+            height: 13.016845703125,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
           top="27.155567169189453px"
           left="9.893106460571289px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[19]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[19]")}
         ></Icon>
         <Icon
           width="5.203666687011719px"
@@ -426,13 +405,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 5.20361328125,
-            height: 18.638031005859375,
+            height: 18.637939453125,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
           top="21.534393310546875px"
           left="17.235822677612305px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[20]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[20]")}
         ></Icon>
         <Icon
           width="2.937082290649414px"
@@ -442,13 +421,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 2.93701171875,
-            height: 4.76580810546875,
+            height: 4.765869140625,
           }}
           color="rgba(111.5625,34.83593791723251,4.648442566394806,1)"
           position="absolute"
           top="34.336116790771484px"
           left="3.683692455291748px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[21]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[21]")}
         ></Icon>
         <Icon
           width="2.9370813369750977px"
@@ -464,7 +443,7 @@ export default function PageServices(props) {
           position="absolute"
           top="28.287220001220703px"
           left="11.026397705078125px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[22]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[22]")}
         ></Icon>
         <Icon
           width="2.937082290649414px"
@@ -474,13 +453,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 2.93701171875,
-            height: 16.435882568359375,
+            height: 16.435791015625,
           }}
           color="rgba(111.5625,34.83593791723251,4.648442566394806,1)"
           position="absolute"
           top="22.666025161743164px"
           left="18.36910057067871px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[23]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[23]")}
         ></Icon>
         <Icon
           width="20.824905395507812px"
@@ -490,13 +469,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 20.82470703125,
-            height: 21.10260009765625,
+            height: 21.1025390625,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
           top="1.3560031652450562px"
           left="90.8582534790039px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[24]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[24]")}
         ></Icon>
         <Icon
           width="24.68135643005371px"
@@ -506,13 +485,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 24.68115234375,
-            height: 24.4913330078125,
+            height: 24.4912109375,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
           top="17.837589263916016px"
           left="-3.1183111559585086e-7px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[25]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[25]")}
         ></Icon>
         <Icon
           width="5.2036590576171875px"
@@ -522,13 +501,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 5.20361328125,
-            height: 6.906829833984375,
+            height: 6.90673828125,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
           top="13.621295928955078px"
           left="93.53276824951172px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[26]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[26]")}
         ></Icon>
         <Icon
           width="5.2036590576171875px"
@@ -538,13 +517,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 5.20361328125,
-            height: 11.778533935546875,
+            height: 11.778564453125,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
           top="8.749610900878906px"
           left="101.70846557617188px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[27]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[27]")}
         ></Icon>
         <Icon
           width="2.9370803833007812px"
@@ -554,13 +533,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 2.93701171875,
-            height: 4.76580810546875,
+            height: 4.765869140625,
           }}
           color="rgba(111.5625,34.83593791723251,4.648442566394806,1)"
           position="absolute"
           top="14.74516487121582px"
           left="94.59563446044922px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[28]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[28]")}
         ></Icon>
         <Icon
           width="2.9370880126953125px"
@@ -570,13 +549,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 2.93701171875,
-            height: 9.22100830078125,
+            height: 9.220947265625,
           }}
           color="rgba(111.5625,34.83593791723251,4.648442566394806,1)"
           position="absolute"
           top="10.028362274169922px"
           left="102.8417739868164px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[29]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[29]")}
         ></Icon>
         <Icon
           width="2.7766494750976562px"
@@ -586,13 +565,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 2.77685546875,
-            height: 2.772613525390625,
+            height: 2.772705078125,
           }}
           color="rgba(111.5625,34.83593791723251,4.648442566394806,1)"
           position="absolute"
           top="9.211711883544922px"
           left="94.71471405029297px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[30]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[30]")}
         ></Icon>
         <Icon
           width="2.7766494750976562px"
@@ -602,13 +581,13 @@ export default function PageServices(props) {
             minX: 0,
             minY: 0,
             width: 2.77685546875,
-            height: 2.772613525390625,
+            height: 2.772705078125,
           }}
           color="rgba(111.5625,34.83593791723251,4.648442566394806,1)"
           position="absolute"
           top="3.9745728969573975px"
           left="102.89041137695312px"
-          {...getOverrideProps(overrides, "View.View[0].Icon[31]")}
+          {...getOverrideProps(overrides, "View.View[1].Icon[31]")}
         ></Icon>
       </View>
       <View
@@ -619,8 +598,116 @@ export default function PageServices(props) {
         left="24px"
         padding="0px 0px 0px 0px"
         backgroundColor="rgba(111.5625,34.83593791723251,4.648442566394806,1)"
-        {...getOverrideProps(overrides, "View.View[1]")}
+        {...getOverrideProps(overrides, "View.View[2]")}
       ></View>
+      <BorrowerInformationInstructions
+        width="387px"
+        height="469px"
+        position="absolute"
+        top="354px"
+        left="27px"
+        padding="0px 0px 0px 0px"
+        {...getOverrideProps(
+          overrides,
+          "View.BorrowerInformationInstructions[0]"
+        )}
+      >
+        <Text
+          fontFamily="Poppins"
+          fontSize="18px"
+          fontWeight="800"
+          color="rgba(202.00000315904617,124.00000020861626,95.00000193715096,1)"
+          lineHeight="21.09375px"
+          textAlign="left"
+          display="flex"
+          direction="column"
+          justifyContent="center"
+          position="absolute"
+          top="0%"
+          bottom="66.52452025586354%"
+          left="0%"
+          right="0%"
+          padding="0px 0px 0px 0px"
+          children="Please fill out all entries in the form to ensure the processing of your loan application. Incomplete information will cause a delay in processing."
+          {...getOverrideProps(
+            overrides,
+            "View.BorrowerInformationInstructions[0].Text[0]"
+          )}
+        ></Text>
+        <Text
+          fontFamily="Poppins"
+          fontSize="18px"
+          fontWeight="700"
+          color="rgba(112.000000923872,35.00000171363354,5.000000176951289,1)"
+          lineHeight="21.09375px"
+          textAlign="left"
+          display="flex"
+          direction="column"
+          justifyContent="center"
+          position="absolute"
+          top="38.80597014925373%"
+          bottom="42.430703624733475%"
+          left="1.2919896640826873%"
+          right="4.3927648578811365%"
+          padding="0px 0px 0px 0px"
+          children="STEP 1: LOAN INFORMATION"
+          {...getOverrideProps(
+            overrides,
+            "View.BorrowerInformationInstructions[0].Text[1]"
+          )}
+        ></Text>
+        <Text
+          fontFamily="Poppins"
+          fontSize="18px"
+          fontWeight="800"
+          color="rgba(0,0,0,1)"
+          lineHeight="21.09375px"
+          textAlign="left"
+          display="flex"
+          direction="column"
+          justifyContent="center"
+          textDecoration="underline"
+          position="absolute"
+          top="58.63539445628998%"
+          bottom="22.60127931769723%"
+          left="1.2919896640826873%"
+          right="4.3927648578811365%"
+          padding="0px 0px 0px 0px"
+          children="STEP 2: BORROWER INFORMATION"
+          {...getOverrideProps(
+            overrides,
+            "View.BorrowerInformationInstructions[0].Text[2]"
+          )}
+        ></Text>
+        <Text
+          fontFamily="Poppins"
+          fontSize="18px"
+          fontWeight="700"
+          color="rgba(112.000000923872,35.00000171363354,5.000000176951289,1)"
+          lineHeight="21.09375px"
+          textAlign="left"
+          display="flex"
+          direction="column"
+          justifyContent="center"
+          position="absolute"
+          top="81.2366737739872%"
+          bottom="0%"
+          left="1.2919896640826873%"
+          right="4.3927648578811365%"
+          padding="0px 0px 0px 0px"
+          children="STEP 3: SUBMISSION"
+          {...getOverrideProps(
+            overrides,
+            "View.BorrowerInformationInstructions[0].Text[3]"
+          )}
+        ></Text>
+      </BorrowerInformationInstructions>
+      <BorrowersPersonalInfo
+        position="absolute"
+        top="320px"
+        left="439px"
+        {...getOverrideProps(overrides, "View.BorrowersPersonalInfo[0]")}
+      ></BorrowersPersonalInfo>
     </View>
   );
 }

@@ -112,7 +112,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 13.1748046875,
-            height: 7.034423828125,
+            height: 7.034454345703125,
           }}
           color="rgba(255,184.00000423192978,184.00000423192978,1)"
           position="absolute"
@@ -160,7 +160,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 40.08984375,
-            height: 29.1571044921875,
+            height: 29.157135009765625,
           }}
           color="rgba(63.000000044703484,61.00000016391277,86.00000247359276,1)"
           position="absolute"
@@ -176,7 +176,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 89.6240234375,
-            height: 0.30804443359375,
+            height: 0.308074951171875,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
@@ -240,7 +240,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 10.14599609375,
-            height: 11.34326171875,
+            height: 11.343276977539062,
           }}
           color="rgba(255,184.00000423192978,184.00000423192978,1)"
           position="absolute"
@@ -288,7 +288,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 1.85107421875,
-            height: 1.848388671875,
+            height: 1.848419189453125,
           }}
           color="rgba(63.000000044703484,61.00000016391277,86.00000247359276,1)"
           position="absolute"
@@ -304,7 +304,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 1.85107421875,
-            height: 1.848388671875,
+            height: 1.848419189453125,
           }}
           color="rgba(63.000000044703484,61.00000016391277,86.00000247359276,1)"
           position="absolute"
@@ -320,7 +320,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 23.8203125,
-            height: 18.16729736328125,
+            height: 18.167266845703125,
           }}
           color="rgba(63.000000044703484,61.00000016391277,86.00000247359276,1)"
           position="absolute"
@@ -368,7 +368,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 6.2939453125,
-            height: 15.672607421875,
+            height: 15.672576904296875,
           }}
           color="rgba(111.5625,34.83593791723251,4.648442566394806,1)"
           position="absolute"
@@ -400,7 +400,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 5.20361328125,
-            height: 6.9068603515625,
+            height: 6.906829833984375,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
@@ -416,7 +416,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 5.20361328125,
-            height: 13.016845703125,
+            height: 13.016876220703125,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
@@ -432,7 +432,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 5.20361328125,
-            height: 18.6380615234375,
+            height: 18.638031005859375,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
@@ -480,7 +480,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 2.93701171875,
-            height: 16.4359130859375,
+            height: 16.435882568359375,
           }}
           color="rgba(111.5625,34.83593791723251,4.648442566394806,1)"
           position="absolute"
@@ -528,7 +528,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 5.20361328125,
-            height: 6.9068603515625,
+            height: 6.906829833984375,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
@@ -544,7 +544,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 5.20361328125,
-            height: 11.77850341796875,
+            height: 11.778533935546875,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
@@ -592,7 +592,7 @@ export default function PageOneCopy(props) {
             minX: 0,
             minY: 0,
             width: 2.77685546875,
-            height: 2.7725830078125,
+            height: 2.772613525390625,
           }}
           color="rgba(111.5625,34.83593791723251,4.648442566394806,1)"
           position="absolute"

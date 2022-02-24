@@ -138,7 +138,7 @@ export default function PageOne(props) {
             minX: 0,
             minY: 0,
             width: 6.94140625,
-            height: 30.80670166015625,
+            height: 30.8067626953125,
           }}
           color="rgba(0,0,0,1)"
           position="absolute"
@@ -170,7 +170,7 @@ export default function PageOne(props) {
             minX: 0,
             minY: 0,
             width: 89.6240234375,
-            height: 0.30804443359375,
+            height: 0.30810546875,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
@@ -186,7 +186,7 @@ export default function PageOne(props) {
             minX: 0,
             minY: 0,
             width: 19.29736328125,
-            height: 19.269073486328125,
+            height: 19.26904296875,
           }}
           color="rgba(255,184.00000423192978,184.00000423192978,1)"
           position="absolute"
@@ -250,7 +250,7 @@ export default function PageOne(props) {
             minX: 0,
             minY: 0,
             width: 19.29736328125,
-            height: 67.18817138671875,
+            height: 67.1881103515625,
           }}
           color="rgba(87.00000241398811,90.00000223517418,137.00000703334808,1)"
           position="absolute"
@@ -314,7 +314,7 @@ export default function PageOne(props) {
             minX: 0,
             minY: 0,
             width: 23.8203125,
-            height: 18.167266845703125,
+            height: 18.16729736328125,
           }}
           color="rgba(63.000000044703484,61.00000016391277,86.00000247359276,1)"
           position="absolute"
@@ -330,7 +330,7 @@ export default function PageOne(props) {
             minX: 0,
             minY: 0,
             width: 30.8515625,
-            height: 30.80670166015625,
+            height: 30.8067626953125,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
@@ -362,7 +362,7 @@ export default function PageOne(props) {
             minX: 0,
             minY: 0,
             width: 6.2939453125,
-            height: 15.672607421875,
+            height: 15.67254638671875,
           }}
           color="rgba(111.5625,34.83593791723251,4.648442566394806,1)"
           position="absolute"
@@ -378,7 +378,7 @@ export default function PageOne(props) {
             minX: 0,
             minY: 0,
             width: 6.16943359375,
-            height: 20.02435302734375,
+            height: 20.0242919921875,
           }}
           color="rgba(0,0,0,1)"
           position="absolute"
@@ -426,7 +426,7 @@ export default function PageOne(props) {
             minX: 0,
             minY: 0,
             width: 5.20361328125,
-            height: 18.638031005859375,
+            height: 18.6380615234375,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
@@ -522,7 +522,7 @@ export default function PageOne(props) {
             minX: 0,
             minY: 0,
             width: 5.20361328125,
-            height: 6.906829833984375,
+            height: 6.9068603515625,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
@@ -538,7 +538,7 @@ export default function PageOne(props) {
             minX: 0,
             minY: 0,
             width: 5.20361328125,
-            height: 11.778533935546875,
+            height: 11.77850341796875,
           }}
           color="rgba(160.00000566244125,97.00000181794167,106.00000128149986,1)"
           position="absolute"
@@ -586,7 +586,7 @@ export default function PageOne(props) {
             minX: 0,
             minY: 0,
             width: 2.77685546875,
-            height: 2.772613525390625,
+            height: 2.7725830078125,
           }}
           color="rgba(111.5625,34.83593791723251,4.648442566394806,1)"
           position="absolute"
@@ -602,7 +602,7 @@ export default function PageOne(props) {
             minX: 0,
             minY: 0,
             width: 2.77685546875,
-            height: 2.772613525390625,
+            height: 2.7725830078125,
           }}
           color="rgba(111.5625,34.83593791723251,4.648442566394806,1)"
           position="absolute"
