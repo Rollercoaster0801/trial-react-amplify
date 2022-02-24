@@ -28,8 +28,9 @@ function App() {
           <div className='App' 
             style={{
             position: "absolute",
-            left: "7%",
-            top: "0%",
+            left: "50%",
+            top: "50%",
+            transform: "translate(-50%,-50%)"
           }}
           >
           
